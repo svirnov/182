@@ -1,0 +1,60 @@
+p.svadba2 {
+  color: #C48AA2;
+  margin: 0 0 2px 0;
+  font-size: 24px;
+  FONT-FAMILY: a_Romanus;
+}
+a.svadba3 {
+  color: red;
+  margin: 0 0 2px 0;
+  font-size: 24px;
+  FONT-FAMILY: a_Romanus;
+}
+h1.svadba2 {
+  color: #C48AA2;
+  margin: 0 0 2px 0;
+  font-size: 30px;
+  FONT-FAMILY: a_Romanus;
+  text-align: center;
+}
+
+div.svadba1 {
+ width: 100%;
+bottom:20;
+  padding: 2px;
+height: 30px; /* Размеры */
+overflow: hidden;
+FONT-FAMILY: a_Romanus;
+font-size: 24px;
+line-height: 1.5;
+ text-align: center;
+ 
+
+}
+
+.city {
+   float: left;
+   margin: 2px;
+   padding: 5px;
+   max-width: 240px;
+   height: 350px;
+   border: 1px solid #C48AA2;
+   vertical-align: text-top;
+  
+}
+
+.border1 {
+ border: 1px dotted #C48AA2;
+ background: #f8f7f2;
+margin-top: 5px;
+
+}
+
+.center {
+margin: 0 auto;
+}
+
+.ramka {
+border: 2px solid #C48AA2;
+
+

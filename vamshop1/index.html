@@ -1,0 +1,92 @@
+{config_load file="$language/lang_$language.conf" section="index"}
+aaaaaaaaaaaaaaaaaaaaaaaa
+<!-- Контейнер -->
+<div class="container">
+<!-- Шапка -->
+<img src="http://shop.svadba-moscow.ru/templates/Helius-Original_3/images/logo.gif"  alt="Первый свадебный магазин" text-align="center> {$box_SEARCH}
+<!-- /Шапка -->
+
+<!-- Навигация -->
+<div id="navigation">
+<span>{$navtrail}</span>
+</div>
+<!-- /Навигация -->
+</div> <!-- container -->
+
+<!-- Центр -->
+<div class="container">
+<div class="row">
+<div class="col-xs-3">
+
+{$box_CATEGORIES}
+{$box_LAST_VIEWED}
+{$box_SEARCH}
+{$box_FEATURED}
+
+</div>
+<div class="col-xs-9">
+
+
+{$main_content}
+
+</div>
+</div>
+<!-- /Центр -->
+
+<!-- Левая колонка -->
+<div id="left">
+{$box_CART}
+{$box_CATEGORIES}
+{$box_FILTERS}
+{$box_CONTENT}
+{$box_INFORMATION}
+{$box_ADD_QUICKIE}
+{$box_LAST_VIEWED}
+{$box_REVIEWS}
+{$box_SEARCH}
+{$box_SPECIALS}
+{$box_FEATURED}
+{$box_LATESTNEWS}
+{$box_ARTICLES}
+{$box_ARTICLESNEW}
+{$box_AUTHORS}
+
+</div>
+<!-- /Левая колонка -->
+
+<!-- Правая колонка -->
+<div id="right">
+
+{$box_CART}
+{$box_LOGIN}
+{$box_ADMIN}
+{$box_DOWNLOADS}
+{$box_AFFILIATE}
+{$box_WHATSNEW}
+{$box_NEWSLETTER}
+{$box_BESTSELLERS}
+{$box_INFOBOX}
+{$box_CURRENCIES}
+{$box_LANGUAGES}
+{$box_MANUFACTURERS}
+{$box_MANUFACTURERS_INFO}
+{$box_FAQ}
+
+</div>
+<!-- /Правая колонка -->
+
+<!-- Низ -->
+<div id="footer">
+{if $BANNER}
+<p>
+{$BANNER}
+</p>
+{/if}
+<p>
+<a href="vam_rss2_info.php"><img src="images/rss.png" alt="RSS" border="0" /></a>
+</p>
+</div>
+<!-- /Низ -->
+
+</div>
+<!-- /Контейнер -->
